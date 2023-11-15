@@ -1,0 +1,37 @@
+/* ... (Previous CSS code remains unchanged) */
+
+.styled-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for each option in the dropdown */
+  .option-style1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: blue;
+    background-color: #f0f0f0;
+  }
+  
+  .option-style2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: green;
+    background-color: #fff;
+  }
+  
+  .option-style3 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: red;
+    background-color: #f9f9f9;
+  }
+  
+  .option-style4 {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    color: purple;
+    background-color: #e0e0e0;
+  }
+  

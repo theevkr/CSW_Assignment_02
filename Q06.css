@@ -1,0 +1,47 @@
+/* CSS for menu bar and page content */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-bar {
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .menu-bar li {
+    padding: 10px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .content {
+    margin-left: 220px; /* Adjust for the width of the menu bar */
+    padding: 20px;
+  }
+  .right.menu-bar {
+    right: 0;
+    left: auto;
+  }
+  .content {
+    margin-right: 220px; /* Adjust for the width of the menu bar */
+    margin-left: 0;
+  }
+  .content {
+    padding: 20px;
+    margin-left: 220px; /* Adjust for the width of the menu bar */
+    margin-right: 20px; /* Add margin to the right */
+  }

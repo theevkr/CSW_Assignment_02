@@ -1,0 +1,25 @@
+/* CSS for table styling */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Alternating row background colors */
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
